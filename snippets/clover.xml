@@ -12,10 +12,6 @@
            sync-c="true"
            sync-j="4"
            revision="16" />
-  
-  <remote  name="kshitij"
-           fetch="https://github.com/kshitij-bhale"
-           revision="16" />
 
   <!-- art -->
   <project path="art" name="art" groups="pdk" remote="clover" />
@@ -62,7 +58,7 @@
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="clover-gitlab" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="clover" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="clover" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="kshitij" />
+  <!-- <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc" remote="kshitij" /> -->
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="clover" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="clover" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="clover" />
@@ -83,7 +79,7 @@
 
   <!-- vendor -->
   <project path="vendor/certification" name="vendor_certification" remote="clover" revision="main" />
-  <project path="vendor/clover" name="vendor_clover" remote="kshitij" />
+  <!-- <project path="vendor/clover" name="vendor_clover" remote="kshitij" /> -->
   <project path="vendor/gms" name="vendor_gms" remote="clover-gitlab" clone-depth="1" />
 
 </manifest>
